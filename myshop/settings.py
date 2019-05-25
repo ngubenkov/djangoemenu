@@ -112,7 +112,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.9/topics/i18n/
 
-LANGUAGE_CODE = 'ru-ru'
+LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
 
@@ -146,8 +146,9 @@ EMAIL_HOST_PASSWORD = '12123434Qq' # put your gmail password
 EMAIL_PORT = 587
 #EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-# Paypal
 
 PAYPAL_RECEIVER_EMAIL = 'emenukitchen@gmail.com'
 PAYPAL_TEST = True
+
+# Activate Django-Heroku.
 django_heroku.settings(locals())
