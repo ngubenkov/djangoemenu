@@ -1,1 +1,1 @@
-worker: python manage.py runserve
+web: gunicorn myproject.wsgi
